@@ -58,6 +58,6 @@ app.get('/api', (req, res) => {
     })
 })
 
-app.listen(3005,"0.0.0.0", () => {
+app.listen(3005, () => {
     console.log("App running on port 3005")
 });
